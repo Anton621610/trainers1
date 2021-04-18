@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding:0;
+    margin:0;
+}
+header{
+     background-color: rgba(0, 0, 0, 0.65);
+    padding-bottom: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    border-bottom: 1px #464646 solid;
+    padding: 34px 0 22px 0;
+    margin-bottom: 22px;
+}
+.search{
+    padding: 15px 4px 15px 18px;
+    font-family: 'Metropolis';
+    border-radius: 2px;
+    border:none;
+}
+.online_store{
+    background-color: #252525;
+    color:white;
+    border-radius: 2px;
+    padding: 15px 13px 15px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Metropolis';
+}
+.log_in{
+    background-color:#464646;
+    color:white;
+    padding: 15px 45px 15px 45px;
+    font-family: 'Metropolis';
+    border-radius: 2px;
+    text-decoration: none;
+}
+.sign_up{
+    background-color: #fa090a;
+    padding: 15px 13px 15px 13px;
+    border-radius: 2px;
+    font-family: 'Metropolis';
+    color:white;
+    text-decoration: none;
+}
+.second_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin:auto;
+}
+.first_site{
+    text-transform: uppercase;
+    color:white;
+}
+.menu{
+    font-size: 23px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color:white;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.workouts:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.workouts:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.nutrition:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.nutrition:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.our_trainers:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.our_trainers:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.competition_prep:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.competition_prep:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.training_programs:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.training_programs:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.success_stories:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.success_stories:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.e_books:after{
+    display: inline-block;
+    content: "";
+    background-color: transparent;
+    height:3px;
+    width:100%;
+    margin-top:10px;
+    transition:0.3s;
+}
+.e_books:hover:after{
+    background-color: #ff0000;
+    width:100%;
+}
+.fa-facebook-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-instagram-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-twitter-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+
+}
+.fa-youtube-square{
+    color: #fa090a;
+    font-size: 30px;
+    margin-left: 16px;
+}
