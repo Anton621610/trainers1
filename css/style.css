@@ -28,11 +28,38 @@ header{
     padding: 34px 0 22px 0;
     margin-bottom: 22px;
 }
-.search{
-    padding: 15px 4px 15px 18px;
-    font-family: 'Metropolis';
-    border-radius: 2px;
+header form{
+    width: 208px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+header form input{
     border:none;
+    height:42px;
+    line-height: 42px;
+    width:75%;
+    color:#959595;
+    font-size:15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding-left: 10px;
+}
+header form input:focus{
+    outline:none;
+}
+header form button{
+    border: none;
+     box-shadow: none;
+    line-height: 42px;
+    background-color:transparent;
+    text-align: center;
+    width:23%;
+}
+header form button i{
+    color:red;
 }
 .online_store{
     background-color: #252525;
@@ -86,7 +113,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .workouts:hover:after{
     background-color: #ff0000;
@@ -99,7 +126,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .nutrition:hover:after{
     background-color: #ff0000;
@@ -112,7 +139,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .our_trainers:hover:after{
     background-color: #ff0000;
@@ -125,7 +152,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .competition_prep:hover:after{
     background-color: #ff0000;
@@ -138,7 +165,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .training_programs:hover:after{
     background-color: #ff0000;
@@ -151,7 +178,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .success_stories:hover:after{
     background-color: #ff0000;
@@ -164,7 +191,7 @@ header{
     height:3px;
     width:100%;
     margin-top:10px;
-    transition:0.3s;
+    transition:0.5s;
 }
 .e_books:hover:after{
     background-color: #ff0000;
@@ -202,14 +229,10 @@ header{
 padding-bottom: 53px;
 }
 .under_text{
-    max-width: 734px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
     display: inline-block;
     color:white;
     border:none;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .email_input{
     padding: 12px 185px 12px 40px;
@@ -221,4 +244,29 @@ padding-bottom: 53px;
 }
 .text_info{
     margin-bottom:30px;
+}
+footer{
+    background-color: #252525;
+    padding: 50px 80px 65px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    border-bottom:64px #010006 solid;
+}
+.logo{
+    display:block;
+    margin-bottom: 45px;
+}
+.f_i{
+    height: 40px;
+    width: 40px;
+}
+.text_in_columns{
+    text-decoration: none;
+    color: white;
+    font-family: 'Metropolis';
+    margin-bottom: 25px;
+}
+.container_section{
+    padding-bottom: 1185px;
 }
